@@ -1,0 +1,372 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* NAVIGATION */
+#nav-bar {
+    background-color: whitesmoke;
+    padding: 2px;
+}
+
+.topbar {
+    display: flex;
+    color: black;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: green;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.link1 { padding-left: 60px; }
+.link2 { padding-left: 61px; }
+.link3 { padding-left: 62px; }
+.link4 { padding-left: 63px; }
+.link5 { padding-left: 64px; }
+.link6 { padding-left: 65px; }
+.link7 { padding-left: 66px; }
+
+a {
+    text-decoration: none;
+    color: rgb(100, 98, 98);
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    min-height: 600px;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1)), url("fruits.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    position: relative;
+    background-blend-mode: darken;
+}
+
+.hero-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 56px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+p, h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-top: 0px;
+    margin-block-start: 26px;
+    margin-block-end: 26px;
+}
+
+.btn-learn {
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: 2px solid green;
+    font-weight: bold;
+}
+
+.btn-learn:hover {
+    background-color: rgb(13, 138, 13);
+}
+
+.btn-contact {
+    border: 2px solid green;
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: green;
+    display: inline-block;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.btn-contact:hover {
+    background-color: rgb(13, 138, 13);
+    color: white;
+}
+
+/* MISSION SECTION */
+.mission-section {
+    display: flex;
+    padding: 40px;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    margin: 0%;
+    border-collapse: collapse;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    transition: 0.3 ease;
+    display: block;
+}
+
+.mission-image {
+    align-items: flex-start;
+    width: 80%;
+    height: 70%;
+    border-radius: 80px;
+}
+
+.mission-text {
+    float: right;
+    margin-right: 0%;
+    width: 80%;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2px;
+    color: #2C3E50;
+    padding-right: 60px;
+}
+
+.mission-title {
+    color: darkslategray;
+    font-size: 30px;
+    float: left;
+}
+
+.mission-detail {
+    float: left;
+    font-size: 30px;
+    color: darkslategray;
+}
+
+.mission-desc {
+    float: left;
+    color: darkslategray;
+    font-size: 20px;
+}
+
+.btn-journey {
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 50px;
+    font-size: large;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.btn-journey:hover {
+    background-color: rgb(13, 138, 13);
+}
+
+/* IMPACT SECTION */
+.impact-section {
+    background-color: bisque;
+    height: 700px;
+    background-size: cover;
+    width: 100%;
+    padding-top: 60px;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+.impact-wrapper {
+    padding-bottom: 20px;
+}
+
+.impact-header {
+    padding-bottom: 20px;
+}
+
+.impact-title {
+    color: #2C3E50;
+    text-align: center;
+    font-weight: 700;
+}
+
+.impact-subtitle {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+}
+
+.impact-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.impact-card {
+    background-color: aliceblue;
+    text-align: center;
+    width: 17%;
+    height: 300px;
+    padding: 15px 20px 30px 20px;
+    border-radius: 10px;
+    /* margin-left: 30px; */
+    /* margin-right: 40px; */
+}
+
+.impact-icon {
+    color: rgb(181, 119, 38);
+    font-size: 40px;
+}
+
+img {
+    color: rgb(200, 130, 39);
+    font-size: 40px;
+    align-items: center;
+}
+
+/* ===== TESTIMONIALS SECTION ===== */
+.testimonials {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.testimonials p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.testimonial-card h4 {
+    color: #2C3E50;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.testimonial-card span {
+    color: gray;
+    font-size: 14px;
+}
+
+.testimonials .button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.testimonials .button:hover {
+    background-color: rgb(13, 138, 13);
+}
+
+.testimonials img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer p, .footer a, .footer li {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 8px;
+}
+
+.footer-copy {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
